@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="661dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Опросник Шмишека (Schmieschek Fragebogen), или тест Леонгарда-Шмишека – классическая методика диагностики типа акцентуации личности, разработанная немецким психологом Гансом Шмишеком в 1970 году. Теоретической основой опросника является концепция «акцентуированных личностей» выдающегося психиатра Карла Леонгарда, в соответствии с которой можно выявить основные черты личности, составляющие её стержень, определяющие развитие, процессы адаптации, психическое здоровье. При значительной выраженности эти черты характеризуют личность в целом. Акцентуированными названы личности, у которых основные черты ярко выражены; их не следует рассматривать в качестве патологических – это случай «заострения» определенных, присущих каждому человеку, особенностей.  Леонгардом выделены 10 типов акцентуированных личностей, которые достаточно произвольно разделены на две группы: акцентуации характера (демонстративный, педантичный, застревающий, возбудимый) и акцентуации темперамента (гипертимический, дистимический, тревожно-боязливый, циклотимический, аффективно-экзальтированный, эмотивный)."
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
